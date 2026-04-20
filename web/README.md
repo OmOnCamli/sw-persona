@@ -5,28 +5,28 @@
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite)
 ![Netlify](https://img.shields.io/badge/Netlify-Deploy-00C7B7?style=for-the-badge&logo=netlify)
 
-## 📌 Proje Hakkında
+##  Proje Hakkında
 
 Bu proje, **Software Persona** stajı kapsamında geliştirilen modern bir iş ilanı ve başvuru yönetim web uygulamasıdır. Kullanıcılar iş ilanlarını inceleyip CV yükleyerek başvurabilir; yöneticiler ise admin panel üzerinden tüm ilan ve başvuruları CRUD işlemleriyle yönetebilir.
 
-## 🚀 Özellikler
+##  Özellikler
 
 ### Kullanıcı Tarafı
-- 📋 İş ilanlarını listeleme ve arama/filtreleme
-- 🔍 İlan detay sayfası (açıklama, gereksinimler, maaş)
-- 📤 CV yükleme (drag & drop destekli)
-- 🤖 CV'den otomatik email/telefon çıkarımı (Regex)
-- ✍️ Başvuru formu (ön yazı dahil)
+-  İş ilanlarını listeleme ve arama/filtreleme
+-  İlan detay sayfası (açıklama, gereksinimler, maaş)
+-  CV yükleme (drag & drop destekli)
+-  CV'den otomatik email/telefon çıkarımı (Regex)
+-  Başvuru formu (ön yazı dahil)
 
 ### Admin Paneli
-- 📊 Dashboard (başvuru istatistikleri)
-- 👥 Tüm başvuruları listeleme ve filtreleme
-- ✅ Başvuru durumu güncelleme (Beklemede / Kabul / Red)
-- 🗑️ Başvuru silme
-- ➕ Yeni iş ilanı ekleme
-- ✏️ İlan düzenleme ve silme
+-  Dashboard (başvuru istatistikleri)
+-  Tüm başvuruları listeleme ve filtreleme
+-  Başvuru durumu güncelleme (Beklemede / Kabul / Red)
+-  Başvuru silme
+-  Yeni iş ilanı ekleme
+-  İlan düzenleme ve silme
 
-## 🛠️ Teknolojiler
+##  Teknolojiler
 
 | Teknoloji | Versiyon | Kullanım Amacı |
 |-----------|---------|----------------|
@@ -39,7 +39,7 @@ Bu proje, **Software Persona** stajı kapsamında geliştirilen modern bir iş i
 | FileReader API | — | CV okuma |
 | Netlify | — | Deployment |
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
 src/
@@ -69,7 +69,7 @@ src/
     └── cvParser.js
 ```
 
-## 📍 Sayfalar
+##  Sayfalar
 
 | URL | Sayfa | Erişim |
 |-----|-------|--------|
@@ -80,14 +80,14 @@ src/
 | `/admin` | Admin panel | Yalnızca Admin |
 | `/admin/application/:id` | Başvuru detayı | Yalnızca Admin |
 
-## 🔐 Admin Girişi (Demo)
+##  Admin Girişi (Demo)
 
 ```
 E-posta : admin@persona.com
 Şifre   : admin123
 ```
 
-## 💻 Kurulum
+##  Kurulum
 
 ```bash
 # Bağımlılıkları yükle
@@ -100,7 +100,7 @@ npm run dev
 npm run build
 ```
 
-## 🌐 Deployment (Netlify)
+##  Deployment (Netlify)
 
 1. GitHub'a push yap
 2. [netlify.com](https://netlify.com) → "New site from Git"
@@ -108,14 +108,16 @@ npm run build
 4. Publish directory: `dist`
 5. `public/_redirects` dosyası SPA routing'i sağlar
 
-## 📸 Ekran Görüntüleri
+##  Ekran Görüntüleri
 
-> Proje çalıştırıldıktan sonra ekran görüntüleri eklenecektir.
+Proje arayüzüne ait tüm detaylı ekran görüntülerini repository içindeki `screenshots` klasöründen inceleyebilirsiniz:
 
-## 👨‍💻 Geliştirici
+* [ Ekran Görüntüleri Klasörüne Git](./screenshots/)
+  
+##  Geliştirici
 
 **Software Persona Stajyer Projesi**  
-TNC Group — Web Geliştirme Eğitimi
+TNC Group - Web Geliştirme Eğitimi
 
 ---
 

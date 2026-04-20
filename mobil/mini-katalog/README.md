@@ -1,17 +1,17 @@
-# Mini Katalog Uygulamasi
+# Mini Katalog Uygulaması
 
-TNC Group Software Persona yazilim staji bitirme projesi icin, Flutter ile gelistirilmis modern ve responsive mini katalog uygulamasi.
+TNC Group Software Persona yazılım stajı bitirme projesi için, Flutter ile geliştirilmiş modern ve responsive mini katalog uygulaması.
 
-## Ozellikler
+## Özellikler
 
-- Responsive ana sayfa ve urun grid yapisi
+- Responsive ana sayfa ve ürün grid yapısı
 - Arama ve kategori filtreleme
-- Urun detay sayfasi
-- Basit sepet simulasyonu
-- Yerel JSON verisi ile calisma
-- Named route ve route argument kullanimi
+- Ürün detay sayfası
+- Basit sepet simülasyonu
+- Yerel JSON verisi ile çalışma
+- Named route ve route argument kullanımı
 
-## Klasor Yapisi
+## Klasör Yapısı
 
 ```text
 lib/
@@ -24,18 +24,19 @@ assets/
   data/
 ```
 
-## Kullanilan Flutter Surumu
+## Kullanılan Flutter Sürümü
 
-Bu proje Flutter 3.22+ ve Dart 3.3+ hedeflenerek hazirlandi.
+Bu proje Flutter 3.41.7 ve Dart 3.11.5 ile hazırlandı.
 
-## Calistirma Adimlari
+## Çalıştırma Adımları
 
-1. Flutter SDK kurulu oldugundan emin olun.
-2. Proje klasorunde `flutter pub get` komutunu calistirin.
-3. Emulator veya fiziksel cihaz baglayin.
-4. `flutter run` komutu ile uygulamayi baslatin.
+1. Flutter SDK kurulu olduğundan emin olun.
+2. Proje klasöründe `flutter pub get` komutunu çalıştırın.
+3. Emülatör veya fiziksel cihaz bağlayın.
+4. `flutter run` komutu ile uygulamayı başlatın.
 
-## Notlar
+## Proje Ekran Görüntüleri
 
-- Bu ortamda `flutter` komutu kurulu olmadigi icin derleme dogrulamasi yapilamadi.
-- Veri kaynagi olarak yerel JSON kullanilmistir; bu sayede proje demo icin kendi basina calisir.
+Proje arayüzüne ait tüm detaylı ekran görüntülerini repository içindeki `screenshots` klasöründen inceleyebilirsiniz:
+
+* [Ekran Görüntüleri Klasörüne Git](./screenshots/)

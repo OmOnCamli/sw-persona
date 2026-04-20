@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Nova X Pro",
+    "category": "Telefon",
+    "price": 28999,
+    "rating": 4.8,
+    "stock": 14,
+    "brand": "Persona Mobile",
+    "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80",
+    "accentHex": "#FF7A59",
+    "description": "Y\u00fcksek yenileme h\u0131z\u0131na sahip ekran, profesyonel kamera sistemi ve g\u00fcn boyu dayanan pil \u00f6mr\u00fcyle tasarlanan premium ak\u0131ll\u0131 telefon."
+  },
+  {
+    "id": 2,
+    "title": "Pulse Watch S",
+    "category": "Giyilebilir",
+    "price": 8999,
+    "rating": 4.6,
+    "stock": 28,
+    "brand": "Persona Fit",
+    "imageUrl": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=80",
+    "accentHex": "#00A6A6",
+    "description": "Sa\u011fl\u0131k verilerini takip eden, suya dayan\u0131kl\u0131 ve hafif tasar\u0131m\u0131yla g\u00fcnl\u00fck kullan\u0131m i\u00e7in optimize edilmi\u015f ak\u0131ll\u0131 saat."
+  },
+  {
+    "id": 3,
+    "title": "Studio Buds Max",
+    "category": "Ses",
+    "price": 5799,
+    "rating": 4.7,
+    "stock": 35,
+    "brand": "EchoLab",
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+    "accentHex": "#7B61FF",
+    "description": "Aktif g\u00fcr\u00fclt\u00fc engelleme, derin bas dengesi ve ergonomik tasar\u0131mla uzun s\u00fcreli konfor sunan kablosuz kulakl\u0131k."
+  },
+  {
+    "id": 4,
+    "title": "Vision Tab Air",
+    "category": "Tablet",
+    "price": 17999,
+    "rating": 4.5,
+    "stock": 12,
+    "brand": "VisionTech",
+    "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=900&q=80",
+    "accentHex": "#FFB703",
+    "description": "Not alma, \u00e7izim ve medya t\u00fcketimi i\u00e7in ideal ince ve hafif tablet deneyimi."
+  },
+  {
+    "id": 5,
+    "title": "NimbusBook 14",
+    "category": "Laptop",
+    "price": 32999,
+    "rating": 4.9,
+    "stock": 8,
+    "brand": "Nimbus",
+    "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80",
+    "accentHex": "#2A9D8F",
+    "description": "G\u00fc\u00e7 verimlili\u011fi ve performans\u0131 dengede tutan, ta\u015f\u0131nabilir ofis deneyimi i\u00e7in \u00fcretilmi\u015f premium laptop."
+  },
+  {
+    "id": 6,
+    "title": "Orbit Home Mini",
+    "category": "Ak\u0131ll\u0131 Ev",
+    "price": 3499,
+    "rating": 4.4,
+    "stock": 41,
+    "brand": "Orbit",
+    "imageUrl": "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=900&q=80",
+    "accentHex": "#E63946",
+    "description": "Sesli komutlarla \u00e7al\u0131\u015fan, ev otomasyonunu kolayla\u015ft\u0131ran kompakt ak\u0131ll\u0131 asistan cihaz\u0131."
+  }
+]

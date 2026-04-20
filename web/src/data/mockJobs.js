@@ -1,0 +1,126 @@
+import { createJob } from '../interfaces/Job.js'
+
+export const MOCK_JOBS = [
+  createJob({
+    id: 1,
+    title: 'Frontend Developer',
+    department: 'Mühendislik',
+    location: 'İstanbul (Hibrit)',
+    type: 'full-time',
+    salary: '25.000 - 40.000 ₺',
+    description:
+      'Software Persona bünyesinde modern web uygulamaları geliştiren yetenekli bir Frontend Developer arıyoruz. Müşterilerimize sunduğumuz SaaS ürünlerini React ekosistemi ile geliştirip sürdürülebilir kod tabanları oluşturacaksınız.',
+    requirements: [
+      'React.js ve ekosistemi (Redux, React Query) konusunda 2+ yıl deneyim',
+      'TypeScript bilgisi',
+      'Tailwind CSS veya styled-components deneyimi',
+      'REST API entegrasyon bilgisi',
+      'Git & CI/CD süreçlerine hakimiyet',
+    ],
+    responsibilities: [
+      'Mevcut frontend uygulamalarını geliştirmek ve bakımını yapmak',
+      'UI/UX tasarımlarını piksele duyarlı şekilde hayata geçirmek',
+      'Backend ekibiyle koordineli çalışmak',
+      'Code review süreçlerine katılmak',
+      'Teknik dokümantasyon hazırlamak',
+    ],
+    createdAt: '2026-04-01T09:00:00Z',
+  }),
+  createJob({
+    id: 2,
+    title: 'Backend Developer',
+    department: 'Mühendislik',
+    location: 'İstanbul (Ofis)',
+    type: 'full-time',
+    salary: '30.000 - 50.000 ₺',
+    description:
+      'Node.js ve Python ekosistemlerinde güçlü, ölçeklenebilir backend sistemleri geliştirmek için deneyimli bir Backend Developer arıyoruz. Microservice mimarisini benimseyen ekibimize katılın.',
+    requirements: [
+      'Node.js veya Python ile 3+ yıl backend geliştirme deneyimi',
+      'PostgreSQL / MongoDB deneyimi',
+      'REST ve GraphQL API tasarımı',
+      'Docker & Kubernetes bilgisi',
+      'AWS veya GCP deneyimi tercih sebebi',
+    ],
+    responsibilities: [
+      'Yüksek performanslı API\'lar tasarlamak ve geliştirmek',
+      'Veritabanı şeması ve optimizasyon çalışmaları',
+      'Güvenlik best practice\'leri uygulamak',
+      'Load balancing ve caching stratejileri geliştirmek',
+    ],
+    createdAt: '2026-04-03T10:30:00Z',
+  }),
+  createJob({
+    id: 3,
+    title: 'UI/UX Tasarımcı',
+    department: 'Tasarım',
+    location: 'Uzaktan',
+    type: 'full-time',
+    salary: '20.000 - 35.000 ₺',
+    description:
+      'Kullanıcı odaklı, estetik ve işlevsel dijital deneyimler tasarlayan bir UI/UX Tasarımcı arıyoruz. Figma ile prototip oluşturup frontend ekibiyle yakın çalışacaksınız.',
+    requirements: [
+      'Figma ile profesyonel düzeyde tasarım yapabilmek',
+      'Kullanıcı araştırması ve usability test deneyimi',
+      'Design system oluşturma ve yönetimi',
+      'Responsive ve mobile-first tasarım anlayışı',
+      'Temel HTML/CSS bilgisi tercih sebebi',
+    ],
+    responsibilities: [
+      'Kullanıcı akışları ve wireframe\'ler oluşturmak',
+      'High-fidelity prototipler hazırlamak',
+      'Design system\'i güncel tutmak',
+      'Erişilebilirlik (a11y) standartlarını uygulamak',
+    ],
+    createdAt: '2026-04-05T08:00:00Z',
+  }),
+  createJob({
+    id: 4,
+    title: 'Yazılım Geliştirici Stajyeri',
+    department: 'Mühendislik',
+    location: 'İstanbul (Hibrit)',
+    type: 'intern',
+    salary: '8.000 - 12.000 ₺',
+    description:
+      'Software Persona\'da gerçek projeler üzerinde çalışacak, mentorship alacak ve kariyerine güçlü bir başlangıç yapacak stajyer arıyoruz. Bilgisayar Mühendisliği veya ilgili alanlarda öğrenci olmanız yeterli!',
+    requirements: [
+      'Bilgisayar Mühendisliği veya ilgili bölümde öğrenci olmak',
+      'HTML, CSS, JavaScript temel bilgisi',
+      'React veya başka bir framework\'e ilgi duymak',
+      'Git bilgisi',
+      'Öğrenmeye açık ve meraklı olmak',
+    ],
+    responsibilities: [
+      'Proje ekibiyle birlikte sprint görevleri tamamlamak',
+      'Bug fixler ve küçük feature geliştirmeleri',
+      'Code review süreçlerini gözlemlemek',
+      'Teknik dokümantasyona katkıda bulunmak',
+    ],
+    createdAt: '2026-04-08T11:00:00Z',
+  }),
+  createJob({
+    id: 5,
+    title: 'DevOps Mühendisi',
+    department: 'Altyapı',
+    location: 'İstanbul (Ofis)',
+    type: 'full-time',
+    salary: '35.000 - 55.000 ₺',
+    description:
+      'CI/CD pipeline\'larını yöneten, bulut altyapısını optimize eden ve geliştirme süreçlerini hızlandıran bir DevOps Mühendisi arıyoruz. Ekibimizin altyapı kalitesini bir üst seviyeye taşıyın.',
+    requirements: [
+      'Docker, Kubernetes ile 2+ yıl deneyim',
+      'AWS / GCP / Azure sertifikası tercih sebebi',
+      'Terraform veya Ansible deneyimi',
+      'CI/CD araçları (Jenkins, GitHub Actions, GitLab CI)',
+      'Linux sistem yönetimi',
+    ],
+    responsibilities: [
+      'CI/CD pipeline\'ları kurmak ve optimize etmek',
+      'Kubernetes cluster yönetimi',
+      'Güvenlik taramalarını otomatikleştirmek',
+      'Maliyet optimizasyonu çalışmaları',
+      'Monitoring ve alerting sistemleri kurmak',
+    ],
+    createdAt: '2026-04-10T14:00:00Z',
+  }),
+]

@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply font-sans bg-primary-dark text-white antialiased;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* === BUTTONS === */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl
+           bg-gradient-to-r from-secondary to-accent
+           text-white font-semibold text-sm
+           transition-all duration-300
+           hover:shadow-lg hover:shadow-accent/30 hover:scale-105
+           active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl
+           border border-secondary/50 text-secondary
+           font-semibold text-sm bg-secondary/10
+           transition-all duration-300
+           hover:bg-secondary/20 hover:border-secondary hover:scale-105
+           active:scale-95;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg
+           bg-red-500/10 border border-red-500/30 text-red-400
+           font-medium text-sm
+           transition-all duration-300
+           hover:bg-red-500/20 hover:border-red-500 hover:scale-105
+           active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg
+           text-gray-400 font-medium text-sm
+           transition-all duration-200
+           hover:text-white hover:bg-white/10;
+  }
+
+  /* === CARDS === */
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl
+           transition-all duration-300;
+  }
+
+  .glass-card-hover {
+    @apply glass-card hover:bg-white/10 hover:border-white/20 hover:shadow-xl
+           hover:shadow-accent/10 hover:-translate-y-1 cursor-pointer;
+  }
+
+  /* === FORM ELEMENTS === */
+  .form-input {
+    @apply w-full px-4 py-3 rounded-xl
+           bg-white/5 border border-white/15
+           text-white placeholder-gray-400 text-sm
+           outline-none transition-all duration-200
+           focus:border-accent/60 focus:bg-white/10 focus:ring-2 focus:ring-accent/20;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-300 mb-1.5;
+  }
+
+  .form-select {
+    @apply form-input appearance-none cursor-pointer;
+  }
+
+  /* === BADGES === */
+  .badge-pending {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold
+           bg-amber-500/15 text-amber-400 border border-amber-500/30;
+  }
+
+  .badge-accepted {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold
+           bg-emerald-500/15 text-emerald-400 border border-emerald-500/30;
+  }
+
+  .badge-rejected {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold
+           bg-red-500/15 text-red-400 border border-red-500/30;
+  }
+
+  /* === SECTION TITLES === */
+  .section-title {
+    @apply text-3xl font-bold text-white;
+  }
+
+  .section-subtitle {
+    @apply text-gray-400 mt-2;
+  }
+
+  /* === PAGE LAYOUT === */
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+  }
+
+  /* === JOB TYPE BADGES === */
+  .job-type-full-time {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium
+           bg-accent/15 text-accent border border-accent/30;
+  }
+
+  .job-type-intern {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium
+           bg-purple-500/15 text-purple-400 border border-purple-500/30;
+  }
+
+  .job-type-part-time {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-md text-xs font-medium
+           bg-secondary/15 text-secondary border border-secondary/30;
+  }
+
+  /* === TABLE === */
+  .admin-table {
+    @apply w-full border-collapse;
+  }
+
+  .admin-table th {
+    @apply px-4 py-3 text-left text-xs font-semibold text-gray-400 uppercase tracking-wider
+           border-b border-white/10;
+  }
+
+  .admin-table td {
+    @apply px-4 py-4 text-sm text-gray-200 border-b border-white/5;
+  }
+
+  .admin-table tr:hover td {
+    @apply bg-white/3;
+  }
+}
+
+@layer utilities {
+  .bg-white\/3 {
+    background-color: rgba(255, 255, 255, 0.03);
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent;
+  }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #0D1F33 0%, #1B3A5C 50%, #2A7B9B 100%);
+  }
+
+  .nav-blur {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0D1F33;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #2A7B9B;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3DADD8;
+  }
+}
